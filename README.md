@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Render JSON from a Rails controller
+- RenderJSON from a Rails controller
 - Select specific model attributes to render in a Rails controller
 
 ## Introduction
