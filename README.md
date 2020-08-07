@@ -13,7 +13,7 @@ on request. We already have the makings of a basic API. In this lesson, we're
 going to look at shaping that data that gets converted to JSON and making it more
 useful to us from the frontend JavaScript perspective.
 
-The way we structure our data matters - it can lead to better, simpler code in
+The way we structure our data matters - it can lead to better, simpler code in1
 the future. By specifically defining what data is being sent via a Rails
 controller, we have full control over what data our frontend has access to.
 
