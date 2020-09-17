@@ -9,6 +9,7 @@ class BirdsController < ApplicationController
       if bird
         render json: { id: bird.id, name: bird.name, species: bird.species }
       else
+        #renders if you go to localhost:3000/birds/poop bc bird does not exist
         render json: { message: 'Bird not found' }
       end
     end
