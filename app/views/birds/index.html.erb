@@ -1,7 +1,4 @@
-<h1>Birds</h1>
-
-<ul>
-<% @birds.each do |bird| %>
-    <li><%= bird.name %> - <%= bird.species %></li>
-<% end %>
-</ul>
+Rails.application.routes.draw do
+  get '/birds' => 'birds#index'
+  get '/birds/:id' => 'birds#show' # new
+end
