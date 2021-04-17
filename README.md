@@ -1,4 +1,4 @@
-# Custom JSON Rendering Using Rails
+#Ariel's Custom JSON Rendering Using Rails
 
 ## Learning Goals
 
